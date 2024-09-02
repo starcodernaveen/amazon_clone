@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+nav{
+    width:100%;
+    height:45px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 25px;
+    font-size: 18px;
+   
+}
+#LiveTV{
+    list-style: none;
+    color: gray ;
+}
+#primevideo{
+        list-style: none;
+        color: white;
+        padding-right: 80px;
+                
+    
+}
+#Home{
+    
+    width:70px;
+    color: white;
+
+}
+.fa-solid{
+    color: white;
+}
+#Subscribe{
+    text-decoration: none;
+    color: gray;
+}
+.selections{
+    border: none;
+    outline: none;
+    color: gray;
+    cursor: pointer;
+    background-color: black;
+    font-size: 18px;
+}
+#profile{
+width: 35px;
+}
+#EN{
+    width: 50px;
+}
+#div1,#div2{
+    display: flex;
+    width: 100%;
+    height:500px;
+    background-color: black;
+    /* display: flex; */
+    position: absolute;
+    /* top: 20px; */
+    float: left;
+}
+#div1{
+    height:700px;
+}
+#img1,#img2{
+width: 100%;
+background-size: 100% 100%;
+/* filter: blur(2px); */
+}
+#welcome,#movie{
+    color: white;
+    position: absolute;
+    /* z-index:2; */
+    top:15px;
+    font-size:40px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+#favorite{
+    color: rgb(10, 9, 9);
+    position: absolute;
+    /* z-index:2; */
+    top:15px;
+    font-size:40px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+#hhh2{
+    display: flex;
+    color: rgb(9, 9, 9);
+    position: absolute;
+    /* z-index:2; */
+    top:60px;
+    font-size:20px;
+    margin-left: 40px;
+    margin-top: 130px;
+    float: left;
+    width:450px;
+    
+}
+.hh2{
+    color: white;
+    position: absolute;
+    /* z-index:2; */
+    top:60px;
+    font-size:20px;
+    margin-left: 40px;
+    margin-top: 70px;
+    float: left;
+    width:600px;
+    display: flex;
+    
+}
+#button{
+    float: left;
+    /* display: flex; */
+    width: 100%;
+    height: 100px;
+    color: blue;
+}
+#input{
+    /* display: flex; */
+    width: 100%;
+    height:100px;
+    background-color: black;
+    /* display: flex; */
+    /* position: absolute; */
+    /* top: 20px; */
+    float: left;
+
+}
+#categories{
+    width:110px;
+}
+#store{
+    width:65px;
+}
+#search{
+    padding-left:30px;
+    font-size: 25px;
+    color:gray;
+}
+
+button{
+    position: absolute;
+    display: flex;
+    width:255px;
+    height:42px;
+    top:230px;
+    left:40px;
+    border-radius: 4px;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    background-color: #0F79AF;
+    
+    }
+
+#div2{
+    position: relative;
+    top:700px;
+    height:600px;
+}
+#div3{
+    width: 50%;
+    height:500px;
+    background-color: white;
+    /* display: flex; */
+    position: relative;
+    top: 500px;
+    float: left;
+}
+
+#favourite{
+    color: black;
+}
+#middle2{
+    float:left;
+    width:100%;
+    height: 500px;
+    background-color: white;
+}
+#div4{
+    width: 50%;
+    height:400px;
+    background-color: white;
+    /* display: flex; */
+    position: relative;
+    top: 500px;
+    float: left;
+    padding-top:10px;
+    /* padding-bottom:10px; */
+}
+.allimg{
+position: relative;
+    width:30%;
+    left:0px;
+    top:0px;
+    height: 121px;
+    /* border: 3px solid white; */
+    /* transform: skew(45deg); */
+    /* Border-radius: 10px; */
+    /* padding-bottom:10px; */
+}
+footer{
+    width:100%;
+    height:125px;
+    background-color: gray;
+    float: left;
+    display: flex;
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-items: center;
+    flex: wrap;
+    align-items: center;
+    padding-left: 270px;
+}
+#primevideoimg{
+    width:7%;
+    /* height:15px; */
+    position: relative;
+    left:650px;
+    top:-30px;
+    
+}
+#a1{
+    position: relative;
+    left:400px;
+}
+#a2{
+    position: relative;
+    left:420px;
+}
+#a3{
+    position: relative;
+    left:440px;
+}
+pre{
+    position: relative;
+    top: 30px;
+    left:80px;
+    color: white;
+    font-size: 15px;
+}
+
+.allimg:hover{
+    transform: scale(1.005);
+    box-shadow:2px solid black;
+}
